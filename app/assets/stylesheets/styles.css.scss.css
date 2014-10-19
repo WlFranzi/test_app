@@ -26,6 +26,7 @@ body {
   line-height: 4em;
 
 }
+
 .container.whytf {
   background-image: url('Img/robin.jpg');
   padding-top: 100px;
@@ -89,7 +90,6 @@ background-color: #FFFFFF;
 
 .navbar-collapse{
 background-color: #FFFFFF;
-color: #0000;
 }
 
 .navbar-brand{
@@ -99,10 +99,6 @@ color: #FFFFFF;
 .list-inline {
   color: #0b988d;
 }
-
-
-
-
 
 
 .carousel-inner > .item > img {
@@ -130,13 +126,3 @@ padding-right: 20px;
 .parallax h2 {
   line-height: 300px;
 }
-
-.footer {
-  color: #000000;
-	background-color: #FFFFFF;
-
-
-  
-
-
-
