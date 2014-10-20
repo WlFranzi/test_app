@@ -6,10 +6,23 @@
 	padding-bottom: 15px;
 	text-align: center;
 	background-color: #FFF;
-	font-family: url('public/fonts/Apercu_Regular.otf')
+	font-style: url('public/fonts/Apercu_Regular.otf')
+}
+
+.horizontal-menu {
+	font-color: #000000;
+
 }
 
 
+
+.Inc {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+
+.
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
