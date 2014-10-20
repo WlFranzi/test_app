@@ -1,12 +1,15 @@
 /*application for all pages*/
 
+.twelve.columns {
+	font-family: 'Karla', sans-serif;
+	font-color: #FFF;
+}
 
 .sticky.wrapper {
 	font-family: 'Karla', sans-serif;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
-	background-color: #FFF;
 }
 
 .horizontal-menu {
