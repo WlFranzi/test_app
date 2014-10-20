@@ -6,7 +6,15 @@
 	padding-bottom: 15px;
 	text-align: center;
 	background-color: #FFF;
-	font-style: url('public/fonts/Apercu_Regular.otf')
+	font-family: 'apercuregular';
+    src: url('apercu_regular-webfont.eot');
+    src: url('apercu_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('apercu_regular-webfont.woff2') format('woff2'),
+         url('apercu_regular-webfont.woff') format('woff'),
+         url('apercu_regular-webfont.ttf') format('truetype'),
+         url('apercu_regular-webfont.svg#apercuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .horizontal-menu {
