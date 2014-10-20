@@ -1,7 +1,7 @@
 /*application for all pages*/
 
 
-.body {
+.all {
 	font-family: 'Titillium Web', sans-serif;
 	font-color: #000000;
 }
@@ -15,7 +15,7 @@
 
 .col-md-1 {
 	font-color: #000000;
-
+	padding: 50px;
 }
 
 
