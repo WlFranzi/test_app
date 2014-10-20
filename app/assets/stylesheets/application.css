@@ -1,3 +1,16 @@
+/*application for all pages*/
+
+
+.sticky.wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	background-color: #FFF;
+	font-family: url('public/fonts/Apercu_Regular.otf')
+}
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
