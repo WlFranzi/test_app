@@ -1,9 +1,9 @@
 /*application for all pages*/
 
 
-.twelve.columns {
+.body {
 	font-family: 'Titillium Web', sans-serif;
-	font-color: #FFF;
+	font-color: #000000;
 }
 
 .sticky.wrapper {
@@ -13,7 +13,7 @@
 	text-align: center;
 }
 
-.horizontal-menu {
+.row {
 	font-color: #000000;
 
 }
