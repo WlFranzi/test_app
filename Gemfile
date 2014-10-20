@@ -7,10 +7,16 @@ gem 'rails', '4.1.6'
 group :development do
   gem 'sqlite3'
 end
+
 group :production do
-  gem 'pg'
+  gem 'pg' 
   gem 'rails_12factor'
+  gem 'unicorn' 
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -20,6 +26,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 ruby '2.0.0'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -38,6 +45,7 @@ gem 'spring',        group: :development
 
 # Use unicorn as the app server
 # gem 'unicorn'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
