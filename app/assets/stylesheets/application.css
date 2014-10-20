@@ -2,11 +2,11 @@
 
 
 .sticky.wrapper {
+	font-family: 'Karla', sans-serif;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
 	background-color: #FFF;
-	font-family: 'Karla', sans-serif;
 }
 
 .horizontal-menu {
