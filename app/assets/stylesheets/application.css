@@ -20,20 +20,17 @@ h1, h2, h3 {
 	color: #ffffff;
 }
 
-#main-menu ul li:hover a{
-	color: #fff;
+#main-menu ul li:hover {
+	color: #ffffff;
 }
 
 .main.menu {
 	font-family: 'Droid Sans', sans-serif;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 50px;
 	text-align: center;
-}
-
-.col-md-1 {
-	font-color: #000000;
-	padding: 50px;
+	color: #ffffff;
 }
 
 
