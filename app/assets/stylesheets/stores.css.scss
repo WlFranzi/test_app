@@ -1,15 +1,31 @@
-.item { width: 25%; }
-.item.w2 { width: 50%; }
 
-var $container = $('#container');
-// initialize
-$container.masonry({
-  columnWidth: 200,
-  itemSelector: '.item'
-});
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
-var msnry = $container.data('masonry');
+.masonry {
+  max-width: 640px;
+}
 
-.item {
-  background-image: url('/public/Img/egg.jpg')
-  }
+.masonry .item,
+.masonry .grid-sizer {
+  width:  20%;
+}
+
+.masonry .item,
+.masonry .grid-sizer {
+  height: relative;
+  float: left;
+}
+
+.item.w2 { 
+	background-image: url('../Img/egg.png');
+	width:  40%; }
+.item.h2 { 
+	height: 100px; }
+.item.h3 { 
+	height: 130px; }
+.item.h4 { 
+	height: 180px; }

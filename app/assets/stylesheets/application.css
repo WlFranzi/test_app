@@ -1,47 +1,5 @@
 
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
-
-h1, h2, h3 {
-		font-family: 'Droid Sans', sans-serif;
-}
-
-
-#header {
-	font-family: 'Droid Sans', sans-serif;
-	font-size: 20px;
-}
-
-
-#main-menu ul {
-	list-style: none;
-	list-style-type: none;
-	font-family: 'Droid Sans', sans-serif;
-	color: #ffffff;
-}
-
-#main-menu ul li:hover {
-	color: #ffffff;
-}
-
-.main.menu {
-	font-family: 'Droid Sans', sans-serif;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	padding-left: 50px;
-	text-align: center;
-	color: #ffffff;
-}
-
-
-.Inc {
-	text-align: center;
-	position: absolute;
-	bottom: 0;
-	color: #000000;
-}
-
-
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
