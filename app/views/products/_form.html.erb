@@ -11,7 +11,7 @@
     </div>
   <% end %>
 
-   <div class="field">
+  <div class="field">
     <%= f.label :hersteller %><br>
     <%= f.text_field :hersteller %>
   </div>
@@ -20,12 +20,24 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.label :beschreibung %><br>
+    <%= f.text_area :beschreibung %>
   </div>
   <div class="field">
     <%= f.label :image_url %><br>
     <%= f.text_field :image_url %>
+  </div>
+  <div class="field">
+    <%= f.label :groesse %><br>
+    <%= f.text_field :groesse %>
+  </div>
+  <div class="field">
+    <%= f.label :versandkosten %><br>
+    <%= f.text_field :versandkosten %>
+  </div>
+  <div class="field">
+    <%= f.label :lieferzeit %><br>
+    <%= f.text_area :lieferzeit %>
   </div>
   <div class="field">
     <%= f.label :preis %><br>
@@ -35,17 +47,7 @@
     <%= f.label :aktion %><br>
     <%= f.text_field :aktion %>
   </div>
-   <div class="field">
-    <%= f.label :groesse %><br>
-    <%= f.text_field :groesse %>
-  </div>
-   <div class="field">
-    <%= f.label :lieferzeiten_versandkosten %><br>
-    <%= f.text_field :lieferzeiten_versandkosten %>
-  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
-
-

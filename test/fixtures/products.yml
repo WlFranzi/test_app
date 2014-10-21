@@ -1,11 +1,23 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  hersteller: MyString
   name: MyString
-  description: MyText
+  beschreibung: MyText
   image_url: MyString
+  groesse: MyString
+  versandkosten: MyString
+  lieferzeit: MyText
+  preis: MyString
+  aktion: MyString
 
 two:
+  hersteller: MyString
   name: MyString
-  description: MyText
+  beschreibung: MyText
   image_url: MyString
+  groesse: MyString
+  versandkosten: MyString
+  lieferzeit: MyText
+  preis: MyString
+  aktion: MyString

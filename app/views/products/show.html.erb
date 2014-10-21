@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Hersteller:</strong>
+  <%= @product.hersteller %>
+</p>
 
 <p>
   <strong>Name:</strong>
@@ -7,8 +11,8 @@
 </p>
 
 <p>
-  <strong>Description:</strong>
-  <%= @product.description %>
+  <strong>Beschreibung:</strong>
+  <%= @product.beschreibung %>
 </p>
 
 <p>
@@ -16,7 +20,30 @@
   <%= @product.image_url %>
 </p>
 
+<p>
+  <strong>Groesse:</strong>
+  <%= @product.groesse %>
+</p>
 
+<p>
+  <strong>Versandkosten:</strong>
+  <%= @product.versandkosten %>
+</p>
+
+<p>
+  <strong>Lieferzeit:</strong>
+  <%= @product.lieferzeit %>
+</p>
+
+<p>
+  <strong>Preis:</strong>
+  <%= @product.preis %>
+</p>
+
+<p>
+  <strong>Aktion:</strong>
+  <%= @product.aktion %>
+</p>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
