@@ -1,22 +1,18 @@
 <html>
 
-<body data-spy="scroll" data-target=".wrapper">
+<body data-spy="scroll" data-target=".container">
 
 
-<div class="clearfix mosaicflow">
-    <div class="mosaicflow__item">
-        <img width="500" height="300" url='public/Img/egg.jpg' alt="EGG">
-    </div>
-    <div class="mosaicflow__item">
-        <img width="500" height="500" src="public/Img/red.jpg" alt="W?">
-    </div>
+<div id="container" class="js-masonry"
+  data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+  <div class="item">egg</div>
+  <div class="item w2">hot</div>
+  <div class="item">...</div>
 </div>
 
   </body>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-<script src="jquery.mosaicflow.min.js"></script>
-
+<script src="/path/to/masonry.pkgd.min.js"></script>
 
 </html>
+

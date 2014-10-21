@@ -1,11 +1,15 @@
+.item { width: 25%; }
+.item.w2 { width: 50%; }
 
+var $container = $('#container');
+// initialize
+$container.masonry({
+  columnWidth: 200,
+  itemSelector: '.item'
+});
 
-.mosaicflow__column {
-    float:left;
-    }
+var msnry = $container.data('masonry');
 
-.mosaicflow__item img {
-    display:block;
-    width:100%;
-    height:auto;
-}
+.item {
+  background-image: url('/public/Img/egg.jpg')
+  }
