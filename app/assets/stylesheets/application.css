@@ -1,14 +1,14 @@
 
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 h1, h2, h3 {
-		font-family: 'Titillium Web', sans-serif;
+		font-family: 'Droid Sans', sans-serif;
 }
 
 
 #header {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 20px;
 }
 
@@ -16,7 +16,7 @@ h1, h2, h3 {
 #main-menu ul {
 	list-style: none;
 	list-style-type: none;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 	color: #ffffff;
 }
 
@@ -24,8 +24,8 @@ h1, h2, h3 {
 	color: #fff;
 }
 
-.sticky.wrapper {
-	font-family: 'Karla', sans-serif;
+.main.menu {
+	font-family: 'Droid Sans', sans-serif;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
