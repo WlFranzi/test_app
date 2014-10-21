@@ -14,10 +14,19 @@ h1, h2, h3 {
 
 
 ul { 
-text-align: center; }
+text-align: center; 
+list-style:none;
+}
 
 li { 
-display: inline-block; }
+display: 
+inline-block;
+list-style:none; }
+
+.span12 ul li a:hover {
+   background:#000;
+   color:#fff;
+}
 
 
 .Inc {
