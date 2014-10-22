@@ -6,7 +6,7 @@ pre {
 }
 
 li {
-  padding-left: 5px;
+  padding-left: 40px;
   padding-right: 5px;
 }
 
@@ -15,7 +15,8 @@ a {
   &:visited {
     color: #fff;
   }
-  &:hover {
+
+&:hover {
     color: #fff;
     background-color: #000;
   }
