@@ -1,8 +1,50 @@
 
+* {
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
 
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
 
-.masonryImage.w2 { width: 5%; }
-.masonryImage.w3 { width: 10%; }
-.masonryImage.w4 { width: 15%; }
-.masonryImage { width: 40%; }
+img {
+    margin-top: -4px;
+}
 
+@media only screen and (max-width : 1199px),
+only screen and (max-device-width : 1199px){
+    #container {
+        width: 1000px;
+    }
+}
+ 
+ 
+@media only screen and (max-width : 999px),
+only screen and (max-device-width : 999px){
+    #container {
+        width: 800px;
+    }
+}
+ 
+@media only screen and (max-width : 799px),
+only screen and (max-device-width : 799px){
+    #container {
+        width: 600px;
+    }
+}
+ 
+@media only screen and (max-width : 599px),
+only screen and (max-device-width : 599px){
+    #container {
+        width: 400px;
+    }
+}
+ 
+@media only screen and (max-width : 399px),
+only screen and (max-device-width : 399px){
+    #container {
+        width: 200px;
+    }
+}
