@@ -13,6 +13,15 @@ var msnry = new Masonry( container, {
 });
 </script>
 
+<script>
+var container = document.querySelector('#container');
+var msnry;
+// initialize Masonry after all images have loaded
+imagesLoaded( container, function() {
+  msnry = new Masonry( container );
+});
+</script>
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
