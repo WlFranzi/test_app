@@ -6,17 +6,11 @@
 
 
 <script>
-  $(function(){
- 
-    var $container = $('#container');
-   
-    $container.imagesLoaded( function(){
-      $container.masonry({
-        itemSelector : '.masonryImage'
-      });
-    });
-   
-  });
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  columnWidth: 200,
+  itemSelector: '.item'
+});
 </script>
 
 <!-- Latest compiled and minified CSS -->

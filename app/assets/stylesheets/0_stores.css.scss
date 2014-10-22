@@ -1,3 +1,5 @@
+
+
 #container {
     width: 1200px;
     margin: 0 auto;
@@ -39,3 +41,13 @@ only screen and (max-device-width : 399px){
         width: 200px;
     }
 }
+
+.masonryImage { width: 25%; }
+.masonryImage.w2 { width: 50%; }
+
+
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  columnWidth: 200,
+  itemSelector: '.item'
+});
