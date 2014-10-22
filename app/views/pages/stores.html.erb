@@ -2,6 +2,21 @@
 
 <body>
 
+<script>
+  $(function(){
+ 
+    var $container = $('#container');
+   
+    $container.imagesLoaded( function(){
+      $container.masonry({
+        itemSelector : '.masonryImage'
+      });
+    });
+   
+  });
+</script>
+
+
 
 <div id="container">
     <div class="masonryImage">

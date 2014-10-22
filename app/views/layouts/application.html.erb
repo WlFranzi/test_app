@@ -4,6 +4,21 @@
 
   <title>von hamburgern für die welt</title>
 
+
+<script>
+  $(function(){
+ 
+    var $container = $('#container');
+   
+    $container.imagesLoaded( function(){
+      $container.masonry({
+        itemSelector : '.masonryImage'
+      });
+    });
+   
+  });
+</script>
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
@@ -51,9 +66,9 @@
 
 </body>
 
-    <div class="Inc">
+    <div class="footerhold">
       <footer>
-        <p class="text-center"><small>&copy; Fronz Fruchtzwerg Inc. 2014</small></p>
+        <p class="footer"> &copy; Fronz Fruchtzwerg Inc. 2014 </p>
       </footer>
     </div> 
 
