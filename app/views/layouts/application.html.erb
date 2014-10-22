@@ -5,21 +5,13 @@
   <title>von hamburgern für die welt</title>
 
 
-<script src="jquery-1.7.1.min.js"></script>
-<script src="jquery.masonry.min.js"></script>
-
 <script>
-  $(function(){
- 
-    var $container = $('#container');
-   
-    $container.imagesLoaded( function(){
-      $container.masonry({
-        itemSelector : '.masonryImage'
-      });
-    });
-   
-  });
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  // options
+  columnWidth: 200,
+  itemSelector: '.masonryImage'
+});
 </script>
 
 <!-- Latest compiled and minified CSS -->
