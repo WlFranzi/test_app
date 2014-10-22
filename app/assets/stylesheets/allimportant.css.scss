@@ -28,6 +28,12 @@ body {
 	text-align: center;
 }
 
+.span12 ul li a:hover {
+   background:#000;
+   color:#FFFFFF;
+}
+
+
 ul { 
 text-position: 40%; 
 list-style:none;
@@ -40,10 +46,6 @@ padding-left: 10px;
 padding-right: 10px; 
 }
 
-.span12 ul li a:hover {
-   background:#000;
-   color:#FFFFFF;
-}
 
 
 .footerhold {
