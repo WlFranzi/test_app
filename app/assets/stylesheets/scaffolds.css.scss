@@ -5,6 +5,16 @@ pre {
   font-size: 11px;
 }
 
+
+.row {
+margin-left: -65px;
+}
+
+.masonryImage {
+margin-bottom: none;
+}
+
+
 li {
   padding-left: 40px;
   padding-right: 5px;
@@ -22,11 +32,11 @@ a {
   }
 }
 
-div {
+/*div {
   &.field, &.actions {
     margin-bottom: 10px;
   }
-}
+}*/
 
 #notice {
   color: green;
