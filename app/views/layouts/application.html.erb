@@ -7,18 +7,23 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+
    <script>
-     $(function(){
-   
-       var $container = $('#container');
-     
-       $container.imagesLoaded( function(){
-         $container.masonry({
-           itemSelector : '.item'
-         });
-       });
-     
-     });
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  // options...
+  itemSelector: '.item',
+  columnWidth: 200
+});
+   </script>
+
+   <script>
+// initialize Masonry
+var msnry = new Masonry( container );
+// layout Masonry again after all images have loaded
+imagesLoaded( container, function() {
+  msnry.layout();
+});
    </script>
 
 <!-- Latest compiled and minified CSS -->
