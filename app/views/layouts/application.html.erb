@@ -8,23 +8,19 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
-   <script>
-var container = document.querySelector('#container');
-var msnry = new Masonry( container, {
-  // options...
-  itemSelector: '.item',
-  columnWidth: 200
-});
-   </script>
-
-   <script>
-var container = document.querySelector('#container');
-var msnry;
-// initialize Masonry after all images have loaded
-imagesLoaded( container, function() {
-  msnry = new Masonry( container );
-});
-   </script>
+<script>
+  $(function(){
+ 
+    var $container = $('#container');
+   
+    $container.imagesLoaded( function(){
+      $container.masonry({
+        itemSelector : '.masonryImage'
+      });
+    });
+   
+  });
+</script>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
