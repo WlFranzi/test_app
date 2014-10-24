@@ -10,9 +10,6 @@ pre {
 margin-left: -40px;
 }
 
-.masonryImage {
-margin-bottom: none;
-}
 
 
 li {
@@ -32,10 +29,10 @@ a {
   }
 }
 
-/*div { position: padding-left &.field, &.actions {
-*    margin-bottom: 10px;
-  }*/
-
+.div { 
+position: relative;
+width: 341
+  }
 #notice {
   color: green;
 }

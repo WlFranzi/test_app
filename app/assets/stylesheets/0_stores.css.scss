@@ -1,54 +1,7 @@
 
-* {
-    margin: 0; padding: 0;
-    list-style-type: none;
-}
-
-#container {
-    width: auto;
-    margin: 0 auto;
-}
-
-
-
-/* @media only screen and (max-width : 1199px),
-*only screen and (max-device-width : 1199px){
-*    #container {
-*       width: 1000px;
-*    }
-}*/
- 
- 
-/* @media only screen and (max-width : 999px),
-*only screen and (max-device-width : 999px){
-*   #container {
- *       width: 800px;
-  *  }
-} */
- 
-/* @media only screen and (max-width : 799px),
-* only screen and (max-device-width : 799px){
-*     #container {
-*         width: 600px;
-*     }
-} */
- 
-/* @media only screen and (max-width : 599px),
-* only screen and (max-device-width : 599px){
-*     #container {
-*         width: 400px;
-*     }
-} */
- 
-/* @media only screen and (max-width : 399px),
-*only screen and (max-device-width : 399px){
-*    #container {
-*        width: 200px;
-*    }
-} */
 
 .masonryImage {
-    width: 333px;
+    width: 341px;
     height: 234px;
     margin-bottom: none;
 }
@@ -60,11 +13,24 @@
 }
 
 .masonryImage.w2 {
-    width: 333px;
+    width: 341px;
     height: 468px;
     margin-bottom: none;
 }
 
 
 
+.mosaicflow__column {
+    float:left;
+    width: 341px;
+    }
+    
+.mosaicflow__item img {
+    display:block;
+    width: 341px;
+    height: 234px;
+}
 
+.mosaicflow__item {
+    clientWidth: 341px;
+}
