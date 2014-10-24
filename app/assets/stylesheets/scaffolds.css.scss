@@ -7,7 +7,7 @@ pre {
 
 
 .row {
-margin-left: -65px;
+margin-left: -40px;
 }
 
 .masonryImage {
@@ -32,11 +32,9 @@ a {
   }
 }
 
-/*div {
-  &.field, &.actions {
-    margin-bottom: 10px;
-  }
-}*/
+/*div { position: padding-left &.field, &.actions {
+*    margin-bottom: 10px;
+  }*/
 
 #notice {
   color: green;
