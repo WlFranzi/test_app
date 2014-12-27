@@ -1,13 +1,20 @@
 <html>
 
+<head>
+        <script type="text/javascript">
+$(function() {
+    var BV = new $.BigVideo();
+    BV.init();
+    BV.show('http://vjs.zencdn.net/v/oceans.mp4',{ambient:true});
+});
+        </script>
+
+    </head>
+
 <body>
 
 <div id="big-video-wrap">
- $().ready(function() {
-    var BV = new $.BigVideo();
-    BV.init();
-    BV.show('https://vimeo.com/87150445',{ambient:true});
-});
+
 
 <div id="header" class="logo">
     </div>
