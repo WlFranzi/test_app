@@ -12,8 +12,15 @@
   videojs.options.flash.swf = "../javascripts/video-js.swf"
 </script>
 
+<script>
 
-       <script>
+videojs("87150445").ready(function(){
+  var myPlayer = 87150445;
+
+  // EXAMPLE: Start playing the video.
+  myPlayer.play();
+
+});
 
          $().ready(function() {
     var BV = new $.BigVideo();
