@@ -2,13 +2,29 @@
 
 <body>
 
-<div id="big-video-wrap">
-<div id="big-video-vid" class="video-js vjs-default-skin vjs-controls-disabled vjs-has-started vjs-playing vjs-user-interactive" style="width: 644px; height: 268.333333333px; display: block; top: -45.166666666667px; left: 0px;">
-<video id="big-video-vid_html5_api" class="vjs-tech" preload="auto" datasetup="{}" webkit-playsinline style="position: absolute; width: 644px; height: auto;" iframe src="//player.vimeo.com/video/87150445" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/87150445">Retrospective//</a> from <a href="http://vimeo.com/user2806218">M/14</a> on <a href="https://vimeo.com">Vimeo</a>.</p>">
+<div id="bigvideo">
 
-</div class="nav box" id="nav">
-<a href:"#overview" class="nav-link">Overview</a>
-<a href:"#setup" class="nav-link">Setup</a>
+    $(function() {
+    var BV = new $.BigVideo();
+    BV.init();
+    BV.show('https://vimeo.com/87150445',{ambient:true});
+});
+
+<div id="header" class="logo">
+    </div>
+<div class="row">
+        <div class="span12">
+            <ul>
+ 
+                <li>Stores</li>
+                <li>About</li>
+                <li>Tasche</li>
+                <li>Contact us</li>
+
+            </ul>
+        </div>
+    </div>
+
 </div>
 
 </body>
