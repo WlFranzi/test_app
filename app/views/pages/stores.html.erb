@@ -2,15 +2,8 @@
 
 <head>
 
-<script type="text/javascript">
-  document.createElement('video');document.createElement('audio');document.createElement('track');
-</script>
-
-<link href="../stylesheets/video-js.css" rel="stylesheet">
-<script src="../javascripts/video.js"></script>
-<script>
-  videojs.options.flash.swf = "../javascripts/video-js.swf"
-</script>
+<link href="//vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.11/video.js"></script>
 
 <script>
 
@@ -34,22 +27,15 @@ videojs("87150445").ready(function(){
 <body>
 
 <div id="big-video-wrap">
+<video id="example_video_1" class="video-js vjs-default-skin"
+  controls preload="auto" width="640" height="264"
+  poster="http://patoa.files.wordpress.com/2008/03/dreizehntes.png%3Fw%3D700"
+  data-setup='{"example_option":true}'>
+ <source src="http://vimeo.com/87150445" type='video/mp4' />
+ <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
 
 
-<div id="header" class="logo">
-    </div>
-<div class="row">
-        <div class="span12">
-            <ul>
- 
-                <li>Stores</li>
-                <li>About</li>
-                <li>Tasche</li>
-                <li>Contact us</li>
-
-            </ul>
-        </div>
-    </div>
 
 </div>
 
