@@ -12,13 +12,13 @@ BV = new $.BigVideo({forceAutoplay    :isTouch});
 BV.init();
 showVideo();
 
-BV.getPlayer().            addEvent(‘loadeddata’, function(){
+BV.getPlayer(). addEvent(‘loadeddata’, function(){
 onVideoLoaded();
 });
 
 function showVideo() {
 BV.show($(‘.wrapper .screen:nth-    child(1)’).attr(‘data-video’),{ambient:true});
-$(‘.wrapper .screen .big-image’).    css({opacity:1});
+$(‘.wrapper .screen .big-image’). css({opacity:1});
 }
 
 function onVideoLoaded() {
