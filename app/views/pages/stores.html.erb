@@ -7,29 +7,41 @@
 
 <script>
 
-         $().ready(function() {
-    var BV = new $.BigVideo();
-    BV.init();
-    BV.show('http://vjs.zencdn.net/v/oceans.mp4', {ambient:true});
-});
-        </script>
+BV = new $.BigVideo({forceAutoplay    :isTouch});
 
+BV.init();
+showVideo();
+
+BV.getPlayer().            addEvent(‘loadeddata’, function(){
+onVideoLoaded();
+});
+
+function showVideo() {
+BV.show($(‘.wrapper .screen:nth-    child(1)’).attr(‘data-video’),{ambient:true});
+$(‘.wrapper .screen .big-image’).    css({opacity:1});
+}
+
+function onVideoLoaded() {
+$(‘.wrapper .screen:nth-    
+child(1)’).find(‘.big-image’).        animate({opacity:0},500);
+   }
+
+ </script>
 
     </head>
 
 <body>
 
-<div id="big-video-wrap">
-<video id="example_video_1" class="video-js vjs-default-skin"
-  poster="http://img.galerie.chip.de/imgserver/communityimages/639600/639685/1280x.jpg"
-  data-setup='{"example_option":true}'>
- <source src="http://vimeo.com/87150445" type='video' />
- <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-</video>
+   <header>
+	        <h1>Von Hamburgern für die Welt</h1>
+	 </header>
 
-
-
+<div class='wrapper'>
+<div class='screen' id='screen-1' data-    video='../../video/RetrospectiveHH.mp4'>
+<img src='../../Img/coverhh.png'         class='big-image' />
 </div>
+</div>
+
 
 </body>
 </html>
