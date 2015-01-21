@@ -3,52 +3,46 @@
 
 body {
 		font-family: 'Droid Sans', sans-serif;
-        color: #2B1B17;
+        color: #FFFFFF;
         text-align: center;
 }
 
-.logo {
-	background-image: url('../../Img/logos.png');
-	background-position: center;
-    background-size: 400px 143px;;
-    background-repeat: no-repeat;
-    padding-top: 40px;
-	padding-bottom: 140px;
+
+.navbar {
+padding-bottom: 2px;
+padding-top: 2px;
+font-size: 1em;
+padding-left: 3px;
+opacity: 0.5;
+color: #FFFFFF;
+backgroundcolor: 000;
 }
 
-
-#header {
-	font-family: 'Droid Sans', sans-serif;
-	line-height: 1em;
-	text-align: center;
-	font-size: 50px;
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    font-weight: 120;
 }
 
-.span12 {
-	font-family: 'Droid Sans', sans-serif;
-	font-size: 17px;
-	text-align: center;
+.navbar-toogle a {
+    color: white;
+    hover: off;
 }
 
-.span12 ul li a:hover {
-   background:#000;
-   color:#FFFFFF;
+.navbar-collapse {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-
-ul { 
-text-position: 40%; 
-list-style:none;
+.navbar-collapse a {
+    color: white;
+    font-weight: 100;
+    padding-left: 20px;
 }
 
-li { 
-display: inline-block;
-list-style: none;
-padding-left: 10px;
-padding-right: 10px; 
+.container {
+    color: #FFFFFF
 }
-
-
 
 .footerhold {
     background: none repeat scroll 0 0 transparent;
@@ -63,4 +57,6 @@ padding-right: 10px;
     height: 30px;
     margin: auto;
     width: 400px;
+    color: white;
+    font-size: 15px;
 }
