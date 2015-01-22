@@ -11,10 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150121171450) do
+ActiveRecord::Schema.define(version: 20150121214610) do
+
+  create_table "creatives", force: true do |t|
+    t.string   "name"
+    t.string   "street"
+    t.string   "street_number"
+    t.string   "zip"
+    t.string   "city"
+    t.string   "email"
+    t.string   "phone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "products", force: true do |t|
-    t.string   "hersteller"
+    t.integer  "creative_id",   limit: 255
     t.string   "name"
     t.text     "beschreibung"
     t.string   "image_url"
@@ -26,7 +38,7 @@ ActiveRecord::Schema.define(version: 20150121171450) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "street"
-    t.float    "rating"
+    t.integer  "rating"
   end
 
 end
